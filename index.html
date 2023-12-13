@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Episode 23</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="register-container">
+                <div>
+                    <h1>Regesiter</h1>
+                    <input type="text" placeholder="name" id="name" />
+                    <input type="email" placeholder="email" id="email" />
+                    <input type="password" placeholder="password" id="password" />
+                    <button onclick="handleRegister()">Register</button>
+                </div>
+                <div id="displayUser"></div>
+            </div>
+            <div class="file-upload-container">
+                <h1>File Upload</h1>
+                <input type="file" accept="image/*,video/*" id="fileUpload" />
+                <button onclick="handleFileUpload()">Upload File</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
